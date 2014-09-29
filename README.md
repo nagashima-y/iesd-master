@@ -13,7 +13,7 @@
 
 ###Automatorのワークフロー「iesd_automator.workflow」の内容
 
-1.https://github.com/ntkme/iesd　からDownload ZIP
+1.https://github.com/ntkme/iesd
 
 2.デスクトップに解凍
 
