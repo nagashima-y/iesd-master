@@ -18,7 +18,7 @@ App StoreでOS X 10.9をダウンロードしておく。アプリケーショ�
 
 ###Automatorのワークフロー「iesd_automator.workflow」の内容
 
-1.https://github.com/ntkme/iesd
+1.[https://github.com/ntkme/iesd](https://github.com/ntkme/iesd)からZIP Download
 
 2.デスクトップに解凍
 
