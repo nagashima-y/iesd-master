@@ -5,6 +5,10 @@
 簡単に出来るようAutoMatorのワークフローを作成。
 
 
+###事前準備
+https://www.virtualbox.org/からVirtualBoxをダウンロード、インストール。
+App StoreでOS X 10.9をダウンロードしておく。アプリケーションフォルダに「OS X Mavericks インストール.app」とあればOK。
+
 
 ###起動時の注意点
 ダブルクリックで開くと「"iesd_automator.workflow"は開発元が未確認のため開けません。」となってしまうので、
