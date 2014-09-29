@@ -6,8 +6,6 @@
 
 
 ###事前準備
-[https://www.virtualbox.org/](https://www.virtualbox.org/)からVirtualBoxをダウンロード、インストール。
-
 App StoreでOS X 10.9をダウンロードしておく。アプリケーションフォルダに「OS X Mavericks インストール.app」とあればOK。
 
 
