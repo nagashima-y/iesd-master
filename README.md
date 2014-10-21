@@ -26,3 +26,25 @@ App StoreでOS X 10.9をダウンロードしておく。アプリケーショ�
 
 5.デスクトップに"Mavericks.dmg"作成完了後、通知を表示
 
+
+===============================================================
+OS X Yosemiteのインストールディスクイメージ(.dmg)を作成
+
+（１）iesd（https://github.com/ntkme/iesd/）をDownload ZIP
+
+（２）ダウンロードしたzipファイルをデスクトップへ解凍（iesd-master）
+
+（３）ターミナル.appで以下のコマンドを１行づつ実行
+
+
+cd Desktop/iesd-master
+iesd -i /Applications/Install\ OS\ X\ Yosemite.app -o yosemite.dmg -t BaseSystem
+hdiutil convert yosemite.dmg -format UDSP -o yosemite.sparseimage
+hdiutil mount /Applications/Install\ OS\ X\ Yosemite.app/Contents/SharedSupport/InstallESD.dmg
+hdiutil attach yosemite.sparseimage -readwrite
+cp /Volumes/OS\ X\ Install\ ESD/BaseSystem.* /Volumes/OS\ X\ Base\ System/
+hdiutil detach /Volumes/OS\ X\ Install\ ESD/
+hdiutil detach /Volumes/OS\ X\ Base\ System/
+hdiutil convert yosemite.sparseimage -format UDZO -o yosemite_install.dmg
+
+（４）iesd-masterフォルダ内に”yosemite_install.dmg”が作成
