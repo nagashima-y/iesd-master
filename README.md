@@ -28,7 +28,7 @@ App StoreでOS X 10.9をダウンロードしておく。アプリケーショ�
 
 
 ===============================================================
-#OS X Yosemiteのインストールディスクイメージ(.dmg)を作成
+#OS X Yosemiteのインストールディスクイメージ(.dmg)作成方法メモ
 
 （１）[https://github.com/ntkme/iesd](https://github.com/ntkme/iesd)からZIP Download
 
